@@ -1,0 +1,631 @@
+2026-07-14 02:50:34,054 - INFO - ✅ 数据库备份成功: backups\stock_data_20260714_025034.db
+2026-07-14 02:50:57,947 - INFO - ✅ 健康检查: 数据库正常 (1.70 MB, 1个备份)
+2026-07-14 02:53:30,027 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 02:53:30,027 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 02:53:30,035 - INFO -  * Restarting with watchdog (windowsapi)
+2026-07-14 02:53:31,241 - WARNING -  * Debugger is active!
+2026-07-14 02:53:31,244 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 02:53:38,695 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app copy.py', reloading
+2026-07-14 02:53:38,956 - INFO -  * Restarting with watchdog (windowsapi)
+2026-07-14 02:53:40,598 - WARNING -  * Debugger is active!
+2026-07-14 02:53:40,602 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 02:53:44,806 - INFO - 127.0.0.1 - - [14/Jul/2026 02:53:44] "GET / HTTP/1.1" 200 -
+2026-07-14 02:53:46,042 - INFO - 127.0.0.1 - - [14/Jul/2026 02:53:46] "GET / HTTP/1.1" 200 -
+2026-07-14 02:53:46,888 - INFO - 127.0.0.1 - - [14/Jul/2026 02:53:46] "GET / HTTP/1.1" 200 -
+2026-07-14 02:55:00,118 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\watchdog.py', reloading
+2026-07-14 02:55:00,326 - INFO -  * Restarting with watchdog (windowsapi)
+2026-07-14 02:55:01,869 - WARNING -  * Debugger is active!
+2026-07-14 02:55:01,876 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 02:55:10,928 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\watchdog.py', reloading
+2026-07-14 02:55:11,083 - INFO -  * Restarting with watchdog (windowsapi)
+2026-07-14 02:55:12,296 - WARNING -  * Debugger is active!
+2026-07-14 02:55:12,300 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 02:55:28,812 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 02:55:28,813 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 02:55:30,777 - INFO - 127.0.0.1 - - [14/Jul/2026 02:55:30] "GET / HTTP/1.1" 200 -
+2026-07-14 02:55:45,810 - ERROR - 127.0.0.1 - - [14/Jul/2026 02:55:45] Request timed out: TimeoutError('timed out')
+2026-07-14 02:57:42,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 02:57:42,965 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 02:58:36,076 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 02:58:36,077 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 02:58:38,043 - INFO - 127.0.0.1 - - [14/Jul/2026 02:58:38] "GET / HTTP/1.1" 200 -
+2026-07-14 03:01:17,228 - INFO - ✅ 数据库备份成功: backups\stock_data_20260714_030117.db
+2026-07-14 03:05:25,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:05:25,898 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:05:25,900 - INFO -  * Restarting with stat
+2026-07-14 03:05:27,137 - WARNING -  * Debugger is active!
+2026-07-14 03:05:27,140 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:05:28,627 - INFO - 127.0.0.1 - - [14/Jul/2026 03:05:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:05:29,600 - INFO - 127.0.0.1 - - [14/Jul/2026 03:05:29] "GET / HTTP/1.1" 200 -
+2026-07-14 03:06:56,743 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:06:56,743 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:06:56,745 - INFO -  * Restarting with stat
+2026-07-14 03:06:57,898 - WARNING -  * Debugger is active!
+2026-07-14 03:06:57,901 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:07:03,684 - INFO - 127.0.0.1 - - [14/Jul/2026 03:07:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:07:04,403 - INFO - 127.0.0.1 - - [14/Jul/2026 03:07:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:07:04,910 - INFO - 127.0.0.1 - - [14/Jul/2026 03:07:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:08:30,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:08:30,647 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:08:30,650 - INFO -  * Restarting with stat
+2026-07-14 03:08:31,838 - WARNING -  * Debugger is active!
+2026-07-14 03:08:31,840 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:09:34,673 - INFO - 127.0.0.1 - - [14/Jul/2026 03:09:34] "GET / HTTP/1.1" 200 -
+2026-07-14 03:09:35,674 - INFO - 127.0.0.1 - - [14/Jul/2026 03:09:35] "GET / HTTP/1.1" 200 -
+2026-07-14 03:09:36,348 - INFO - 127.0.0.1 - - [14/Jul/2026 03:09:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:09:37,799 - INFO - 127.0.0.1 - - [14/Jul/2026 03:09:37] "GET / HTTP/1.1" 200 -
+2026-07-14 03:10:46,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:10:46,106 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:10:48,020 - INFO - 127.0.0.1 - - [14/Jul/2026 03:10:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:03,068 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:11:03] Request timed out: TimeoutError('timed out')
+2026-07-14 03:11:03,068 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:11:03] Request timed out: TimeoutError('timed out')
+2026-07-14 03:11:05,638 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:05] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:06,600 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:06] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:07,845 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 03:11:08,292 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:08,845 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 03:11:10,011 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:10] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:10,545 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 03:11:11,223 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:11] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:12,016 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 03:11:26,289 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:26] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:27,082 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 03:11:29,505 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:29] "GET / HTTP/1.1" 200 -
+2026-07-14 03:11:30,025 - INFO - 127.0.0.1 - - [14/Jul/2026 03:11:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 03:12:03,308 - INFO - 127.0.0.1 - - [14/Jul/2026 03:12:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:12:18,315 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:12:18] Request timed out: TimeoutError('timed out')
+2026-07-14 03:13:01,985 - INFO - 127.0.0.1 - - [14/Jul/2026 03:13:01] "GET /api/data HTTP/1.1" 200 -
+2026-07-14 03:13:16,773 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:13:16] Request timed out: TimeoutError('timed out')
+2026-07-14 03:23:26,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:23:26,449 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:23:26,450 - INFO -  * Restarting with stat
+2026-07-14 03:23:27,689 - WARNING -  * Debugger is active!
+2026-07-14 03:23:27,695 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:23:28,102 - INFO - 127.0.0.1 - - [14/Jul/2026 03:23:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:23:40,264 - INFO - 127.0.0.1 - - [14/Jul/2026 03:23:40] "GET /api/data HTTP/1.1" 200 -
+2026-07-14 03:25:50,276 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:25:50,277 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:25:50,280 - INFO -  * Restarting with stat
+2026-07-14 03:25:51,749 - WARNING -  * Debugger is active!
+2026-07-14 03:25:51,752 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:26:01,042 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:01] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:01,748 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:01] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:02,519 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:02] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:02,955 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:02] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:03,176 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:03,369 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:03,539 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:03,706 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:03,875 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:03] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:04,070 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:04,258 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:04,447 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:04,647 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:04,846 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:04] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:05,043 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:05] "GET / HTTP/1.1" 200 -
+2026-07-14 03:26:16,166 - INFO - 127.0.0.1 - - [14/Jul/2026 03:26:16] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:07,010 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:07,506 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:07,697 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:07,869 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:08,045 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:08,228 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:08,395 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:08,604 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:08,790 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:08,962 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:09,124 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:09,295 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:09,467 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:09,636 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:09,835 - INFO - 127.0.0.1 - - [14/Jul/2026 03:27:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:27:57,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:27:57,100 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:27:57,101 - INFO -  * Restarting with stat
+2026-07-14 03:27:58,241 - WARNING -  * Debugger is active!
+2026-07-14 03:27:58,244 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:28:20,337 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:20] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:20,878 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:20] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:21,109 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:21] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:21,303 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:21] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:21,480 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:21] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:21,680 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:21] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:21,884 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:21] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:22,087 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:22,292 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:22,480 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:22,671 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:23,126 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:23,379 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:23,587 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:23,751 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:28,712 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:34,357 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:34] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:35,065 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:35] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:35,377 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:35] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:35,561 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:35] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:35,760 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:35] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:35,937 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:35] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:36,114 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:36,293 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:36,453 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:36,625 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:36,789 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:36,956 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:36] "GET / HTTP/1.1" 200 -
+2026-07-14 03:28:55,877 - INFO - 127.0.0.1 - - [14/Jul/2026 03:28:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:31,406 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:32:31,676 - INFO -  * Restarting with stat
+2026-07-14 03:32:33,033 - WARNING -  * Debugger is active!
+2026-07-14 03:32:33,038 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:32:35,122 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:32:35,122 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:32:35,124 - INFO -  * Restarting with stat
+2026-07-14 03:32:36,341 - WARNING -  * Debugger is active!
+2026-07-14 03:32:36,346 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:32:41,359 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:41] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:41,387 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:41,992 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:41] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:42,019 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:42,310 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:42] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:42,333 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:42,632 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:42] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:42,656 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:43,027 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:43,046 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:43,280 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:43,303 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:43,534 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:43,562 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:43,785 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:43,810 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:44,004 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:44,024 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:44,224 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:44,241 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:44,474 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:44,496 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:44,683 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:44,703 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:44,871 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:44,891 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:45,080 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:45,104 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:45,279 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:45,303 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:45,508 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:45,530 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:45,742 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:45,766 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:45,956 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:45,974 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:51,979 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:51] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:52,002 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:52,353 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:52] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:52,376 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:32:52,631 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:52] "GET / HTTP/1.1" 200 -
+2026-07-14 03:32:52,651 - INFO - 127.0.0.1 - - [14/Jul/2026 03:32:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:06,147 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:06] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:06,197 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:06,435 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:06] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:06,463 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:22,388 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:22,413 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:22,713 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:22,738 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:22,896 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:22,922 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:23,097 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:23,126 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:33:23,409 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:33:23,429 - INFO - 127.0.0.1 - - [14/Jul/2026 03:33:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:34:40,205 - INFO - 127.0.0.1 - - [14/Jul/2026 03:34:40] "GET / HTTP/1.1" 200 -
+2026-07-14 03:34:40,256 - INFO - 127.0.0.1 - - [14/Jul/2026 03:34:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:34:40,543 - INFO - 127.0.0.1 - - [14/Jul/2026 03:34:40] "GET / HTTP/1.1" 200 -
+2026-07-14 03:34:40,640 - INFO - 127.0.0.1 - - [14/Jul/2026 03:34:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:35:20,265 - INFO - 127.0.0.1 - - [14/Jul/2026 03:35:20] "GET / HTTP/1.1" 200 -
+2026-07-14 03:35:20,314 - INFO - 127.0.0.1 - - [14/Jul/2026 03:35:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:35:20,653 - INFO - 127.0.0.1 - - [14/Jul/2026 03:35:20] "GET / HTTP/1.1" 200 -
+2026-07-14 03:35:20,699 - INFO - 127.0.0.1 - - [14/Jul/2026 03:35:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:40,685 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:37:40,864 - INFO -  * Restarting with stat
+2026-07-14 03:37:41,362 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:37:41,557 - INFO -  * Restarting with stat
+2026-07-14 03:37:42,181 - WARNING -  * Debugger is active!
+2026-07-14 03:37:42,184 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:37:42,812 - WARNING -  * Debugger is active!
+2026-07-14 03:37:42,819 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:37:47,805 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:47] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:47,864 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:48,460 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:48,507 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:49,020 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:49] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:49,061 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:50,635 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:50,693 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:50,972 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:51,010 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:51,204 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:51] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:51,275 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:51,500 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:51] "GET / HTTP/1.1" 200 -
+2026-07-14 03:37:51,544 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:54,296 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:37:55,226 - INFO - 127.0.0.1 - - [14/Jul/2026 03:37:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:06,358 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:06] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:06,389 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:07,528 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:07] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:07,553 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:07,809 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:07] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:07,835 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:08,062 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:08,088 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:08,285 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:08,310 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:08,543 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:08,570 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:08,755 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:08,777 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:09,017 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:09,039 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:09,226 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:09,250 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:09,443 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:09,459 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:09,709 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:09,727 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:09,939 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:09,960 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:10,157 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:10] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:10,182 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:38:39,010 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:39] "GET / HTTP/1.1" 200 -
+2026-07-14 03:38:39,079 - INFO - 127.0.0.1 - - [14/Jul/2026 03:38:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:40:12,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:40:12,780 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:40:12,781 - INFO -  * Restarting with stat
+2026-07-14 03:40:13,975 - WARNING -  * Debugger is active!
+2026-07-14 03:40:13,978 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:41:36,790 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:41:37,008 - INFO -  * Restarting with stat
+2026-07-14 03:41:37,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:41:37,263 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:41:37,266 - INFO -  * Restarting with stat
+2026-07-14 03:41:38,357 - WARNING -  * Debugger is active!
+2026-07-14 03:41:38,365 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:41:38,589 - WARNING -  * Debugger is active!
+2026-07-14 03:41:38,591 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:41:44,853 - INFO - 127.0.0.1 - - [14/Jul/2026 03:41:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:41:45,628 - INFO - 127.0.0.1 - - [14/Jul/2026 03:41:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:41:45,872 - INFO - 127.0.0.1 - - [14/Jul/2026 03:41:45] "GET / HTTP/1.1" 200 -
+2026-07-14 03:41:47,755 - INFO - 127.0.0.1 - - [14/Jul/2026 03:41:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:42:40,591 - INFO - 127.0.0.1 - - [14/Jul/2026 03:42:40] "GET / HTTP/1.1" 200 -
+2026-07-14 03:42:40,648 - INFO - 127.0.0.1 - - [14/Jul/2026 03:42:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:42:40,869 - INFO - 127.0.0.1 - - [14/Jul/2026 03:42:40] "GET / HTTP/1.1" 200 -
+2026-07-14 03:42:40,924 - INFO - 127.0.0.1 - - [14/Jul/2026 03:42:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:42:41,197 - INFO - 127.0.0.1 - - [14/Jul/2026 03:42:41] "GET / HTTP/1.1" 200 -
+2026-07-14 03:42:41,239 - INFO - 127.0.0.1 - - [14/Jul/2026 03:42:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:48:07,999 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:48:08,154 - INFO -  * Restarting with stat
+2026-07-14 03:48:08,196 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:48:08,414 - INFO -  * Restarting with stat
+2026-07-14 03:48:09,558 - WARNING -  * Debugger is active!
+2026-07-14 03:48:09,562 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:48:09,754 - WARNING -  * Debugger is active!
+2026-07-14 03:48:09,757 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:48:14,323 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:14] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:14,407 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:48:15,382 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:15] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:15,442 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:48:16,527 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:16] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:16,583 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:48:17,382 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:17] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:17,434 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:48:22,631 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:22,856 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:22] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:23,038 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:23,215 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:27,268 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:27] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:27,538 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:27] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:27,746 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:27] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:27,941 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:27] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:28,120 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:28,273 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:48:30,715 - INFO - 127.0.0.1 - - [14/Jul/2026 03:48:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:54:10,121 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:54:10,302 - INFO -  * Restarting with stat
+2026-07-14 03:54:10,319 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:54:10,517 - INFO -  * Restarting with stat
+2026-07-14 03:54:11,598 - WARNING -  * Debugger is active!
+2026-07-14 03:54:11,601 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:54:11,755 - WARNING -  * Debugger is active!
+2026-07-14 03:54:11,759 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:54:30,852 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:54:30,991 - INFO -  * Restarting with stat
+2026-07-14 03:54:31,697 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 03:54:31,857 - INFO -  * Restarting with stat
+2026-07-14 03:54:32,140 - WARNING -  * Debugger is active!
+2026-07-14 03:54:32,147 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:54:32,985 - WARNING -  * Debugger is active!
+2026-07-14 03:54:32,987 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:54:48,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:54:48,297 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:54:48,299 - INFO -  * Restarting with stat
+2026-07-14 03:54:49,432 - WARNING -  * Debugger is active!
+2026-07-14 03:54:49,437 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:54:55,140 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:55] "GET / HTTP/1.1" 200 -
+2026-07-14 03:54:55,205 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:54:55,653 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:55] "GET / HTTP/1.1" 200 -
+2026-07-14 03:54:55,693 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:54:55,998 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:55] "GET / HTTP/1.1" 200 -
+2026-07-14 03:54:56,044 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:54:56,905 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:56] "GET / HTTP/1.1" 200 -
+2026-07-14 03:54:56,942 - INFO - 127.0.0.1 - - [14/Jul/2026 03:54:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-14 03:55:00,629 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:00] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:01,252 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:01] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:01,485 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:01] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:01,837 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:01] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:02,027 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:02] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:23,243 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:23,669 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:23,942 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:23] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:24,123 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:24] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:24,309 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:24] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:28,060 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:28,457 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:28,663 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:28] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:39,571 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:55:39,571 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:55:39,572 - INFO -  * Restarting with stat
+2026-07-14 03:55:40,747 - WARNING -  * Debugger is active!
+2026-07-14 03:55:40,750 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:55:44,360 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:44,806 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:44,967 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:44] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:47,650 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:47] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:47,841 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:47] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:48,011 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:48,201 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:48,396 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:48,597 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:48,806 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:48] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:49,022 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:49] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:49,481 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:49] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:49,761 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:49] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:49,960 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:49] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:50,183 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:50,409 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:50,615 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:50,809 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:50,991 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:50] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:51,195 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:51] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:51,386 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:51] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:51,594 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:51] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:58,715 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:58] "GET / HTTP/1.1" 200 -
+2026-07-14 03:55:59,075 - INFO - 127.0.0.1 - - [14/Jul/2026 03:55:59] "GET / HTTP/1.1" 200 -
+2026-07-14 03:56:18,150 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:56:18,150 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:56:18,150 - INFO -  * Restarting with stat
+2026-07-14 03:56:19,375 - WARNING -  * Debugger is active!
+2026-07-14 03:56:19,382 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 03:56:25,935 - INFO - 127.0.0.1 - - [14/Jul/2026 03:56:25] "GET / HTTP/1.1" 200 -
+2026-07-14 03:56:26,345 - INFO - 127.0.0.1 - - [14/Jul/2026 03:56:26] "GET / HTTP/1.1" 200 -
+2026-07-14 03:56:26,566 - INFO - 127.0.0.1 - - [14/Jul/2026 03:56:26] "GET / HTTP/1.1" 200 -
+2026-07-14 03:57:10,575 - INFO - 127.0.0.1 - - [14/Jul/2026 03:57:10] "GET / HTTP/1.1" 200 -
+2026-07-14 03:57:49,931 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:57:49,932 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:57:52,032 - INFO - 127.0.0.1 - - [14/Jul/2026 03:57:52] "GET / HTTP/1.1" 200 -
+2026-07-14 03:58:07,031 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:58:07] Request timed out: TimeoutError('timed out')
+2026-07-14 03:58:14,595 - INFO - 127.0.0.1 - - [14/Jul/2026 03:58:14] "GET / HTTP/1.1" 200 -
+2026-07-14 03:58:30,048 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:58:30] Request timed out: TimeoutError('timed out')
+2026-07-14 03:58:58,166 - INFO - 127.0.0.1 - - [14/Jul/2026 03:58:58] "GET / HTTP/1.1" 200 -
+2026-07-14 03:58:58,604 - INFO - 127.0.0.1 - - [14/Jul/2026 03:58:58] "GET / HTTP/1.1" 200 -
+2026-07-14 03:58:58,860 - INFO - 127.0.0.1 - - [14/Jul/2026 03:58:58] "GET / HTTP/1.1" 200 -
+2026-07-14 03:58:58,995 - INFO - 127.0.0.1 - - [14/Jul/2026 03:58:58] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:00,816 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:00] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:00,991 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:00] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:01,171 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:01] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:15,692 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:15] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:16,081 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:16] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:30,707 - ERROR - 127.0.0.1 - - [14/Jul/2026 03:59:30] Request timed out: TimeoutError('timed out')
+2026-07-14 03:59:55,245 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 03:59:55,245 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 03:59:56,182 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:56] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:56,739 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:56] "GET / HTTP/1.1" 200 -
+2026-07-14 03:59:57,323 - INFO - 127.0.0.1 - - [14/Jul/2026 03:59:57] "GET / HTTP/1.1" 200 -
+2026-07-14 04:00:12,373 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:00:12] Request timed out: TimeoutError('timed out')
+2026-07-14 04:01:20,163 - INFO - 127.0.0.1 - - [14/Jul/2026 04:01:20] "GET / HTTP/1.1" 200 -
+2026-07-14 04:01:20,637 - INFO - 127.0.0.1 - - [14/Jul/2026 04:01:20] "GET / HTTP/1.1" 200 -
+2026-07-14 04:01:21,672 - INFO - 127.0.0.1 - - [14/Jul/2026 04:01:21] "GET / HTTP/1.1" 200 -
+2026-07-14 04:03:56,068 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 04:03:56,068 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 04:03:56,069 - INFO -  * Restarting with stat
+2026-07-14 04:03:57,263 - WARNING -  * Debugger is active!
+2026-07-14 04:03:57,267 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 04:04:00,526 - INFO - 127.0.0.1 - - [14/Jul/2026 04:04:00] "GET / HTTP/1.1" 200 -
+2026-07-14 04:05:56,885 - INFO - 127.0.0.1 - - [14/Jul/2026 04:05:56] "GET / HTTP/1.1" 200 -
+2026-07-14 04:05:57,473 - INFO - 127.0.0.1 - - [14/Jul/2026 04:05:57] "GET / HTTP/1.1" 200 -
+2026-07-14 04:08:53,441 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 04:08:53,441 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 04:08:55,543 - INFO - 127.0.0.1 - - [14/Jul/2026 04:08:55] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:10,598 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:09:10] Request timed out: TimeoutError('timed out')
+2026-07-14 04:09:19,878 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:20,611 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:20] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:21,067 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:21] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:21,467 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:21] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:21,812 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:21] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:22,309 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:22] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:22,548 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:22] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:31,689 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:31] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:32,212 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:32] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:32,562 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:32] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:32,730 - INFO - 127.0.0.1 - - [14/Jul/2026 04:09:32] "GET / HTTP/1.1" 200 -
+2026-07-14 04:09:47,735 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:09:47] Request timed out: TimeoutError('timed out')
+2026-07-14 04:10:31,849 - INFO - 127.0.0.1 - - [14/Jul/2026 04:10:31] "GET / HTTP/1.1" 200 -
+2026-07-14 04:10:32,289 - INFO - 127.0.0.1 - - [14/Jul/2026 04:10:32] "GET / HTTP/1.1" 200 -
+2026-07-14 04:10:32,437 - INFO - 127.0.0.1 - - [14/Jul/2026 04:10:32] "GET / HTTP/1.1" 200 -
+2026-07-14 04:10:47,438 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:10:47] Request timed out: TimeoutError('timed out')
+2026-07-14 04:18:51,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 04:18:51,435 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 04:18:52,085 - INFO - 127.0.0.1 - - [14/Jul/2026 04:18:52] "GET /api/data HTTP/1.1" 200 -
+2026-07-14 04:18:53,136 - INFO - 127.0.0.1 - - [14/Jul/2026 04:18:53] "GET / HTTP/1.1" 200 -
+2026-07-14 04:19:08,190 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:19:08] Request timed out: TimeoutError('timed out')
+2026-07-14 04:21:13,869 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 04:21:13,869 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 04:21:15,479 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:15] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:22,597 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:22] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:23,748 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:23] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:23,923 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:23] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:38,931 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:21:38] Request timed out: TimeoutError('timed out')
+2026-07-14 04:21:42,496 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:42] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:42,945 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:42] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:43,327 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:43] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:43,503 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:43] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:43,686 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:43] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:43,861 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:43] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:58,767 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:58] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:59,127 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:59] "GET / HTTP/1.1" 200 -
+2026-07-14 04:21:59,324 - INFO - 127.0.0.1 - - [14/Jul/2026 04:21:59] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:14,339 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:22:14] Request timed out: TimeoutError('timed out')
+2026-07-14 04:22:17,881 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:17] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:18,473 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:18,738 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:19,007 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:19,186 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:19,362 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:34,377 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:22:34] Request timed out: TimeoutError('timed out')
+2026-07-14 04:22:38,362 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:38] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:38,972 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:38] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:39,155 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:39] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:39,292 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:39] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:40,468 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:40] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:41,327 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:41] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:41,747 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:41] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:42,093 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:42] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:42,355 - INFO - 127.0.0.1 - - [14/Jul/2026 04:22:42] "GET / HTTP/1.1" 200 -
+2026-07-14 04:22:57,360 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:22:57] Request timed out: TimeoutError('timed out')
+2026-07-14 04:23:02,966 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:02] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:03,360 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:03] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:03,545 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:03] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:03,741 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:03] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:04,951 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:04] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:05,207 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:05,656 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:05,852 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:23:06,005 - INFO - 127.0.0.1 - - [14/Jul/2026 04:23:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 04:23:20,215 - ERROR - 127.0.0.1 - - [14/Jul/2026 04:23:20] Request timed out: TimeoutError('timed out')
+2026-07-14 04:24:08,346 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 04:24:08,346 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 04:24:08,347 - INFO -  * Restarting with stat
+2026-07-14 04:24:09,560 - WARNING -  * Debugger is active!
+2026-07-14 04:24:09,563 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 04:24:16,795 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:16] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:17,309 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:17] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:17,630 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:17] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:17,849 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:17] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:18,080 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:18,293 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:18,498 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:18,703 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:18,973 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:19,216 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:19,443 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:19,674 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:19,897 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:21,588 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:21] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:21,837 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:21] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:22,037 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:22] "GET / HTTP/1.1" 200 -
+2026-07-14 04:24:22,246 - INFO - 127.0.0.1 - - [14/Jul/2026 04:24:22] "GET / HTTP/1.1" 200 -
+2026-07-14 04:26:59,324 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 04:26:59,495 - INFO -  * Restarting with stat
+2026-07-14 04:27:00,733 - WARNING -  * Debugger is active!
+2026-07-14 04:27:00,738 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 04:27:04,747 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:04] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:05,120 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:05,338 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:05,530 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:05,713 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:05,896 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:05] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:06,084 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:06] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:06,304 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:06] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:06,663 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:06] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:06,936 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:06] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:07,144 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:07,363 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:07,612 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:07,833 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:07] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:08,108 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:08,326 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:08] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:18,658 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:18] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:19,115 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:19,372 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:19] "GET / HTTP/1.1" 200 -
+2026-07-14 04:27:19,635 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:19] "GET / HTTP/1.1" 200 -
