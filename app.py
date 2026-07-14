@@ -679,72 +679,88 @@ HTML_TEMPLATE = """
         // ============================================================
         // 渲染表格
         // ============================================================
-        function renderTable() {
-            var allData = [];
-            for (var i = 0; i < currentData.stock.length; i++) {
-                var item = currentData.stock[i];
-                item._type = '股票';
-                allData.push(item);
-            }
-            for (var j = 0; j < currentData.etf.length; j++) {
-                var item2 = currentData.etf[j];
-                item2._type = 'ETF';
-                allData.push(item2);
-            }
+       function renderTable() {
+    var allData = [];
+    for (var i = 0; i < currentData.stock.length; i++) {
+        var item = currentData.stock[i];
+        item._type = '股票';
+        allData.push(item);
+    }
+    for (var j = 0; j < currentData.etf.length; j++) {
+        var item2 = currentData.etf[j];
+        item2._type = 'ETF';
+        allData.push(item2);
+    }
 
-            var tbody = document.getElementById('tableBody');
-            if (allData.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="7" class="loading-text">📭 暂无数据</td></tr>';
-                return;
-            }
+    var tbody = document.getElementById('tableBody');
+    if (allData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" class="loading-text">📭 暂无数据</td></tr>';
+        return;
+    }
 
-            var rows = [];
-            for (var k = 0; k < allData.length; k++) {
-                var row = allData[k];
-                var change = parseFloat(row['涨跌幅']) || 0;
-                var changeClass = (change >= 0) ? 'up' : 'down';
-                var tagClass = (row._type === '股票') ? 'tag-stock' : 'tag-etf';
-                var code = row['代码'] || '';
-                var name = row['名称'] || '';
+    // 清空表格
+    tbody.innerHTML = '';
 
-                var tr = document.createElement('tr');
-                tr.className = 'clickable';
-                tr.setAttribute('onclick', 'selectStock("' + code + '", "' + name + '", "stock")');
+    for (var k = 0; k < allData.length; k++) {
+        var row = allData[k];
+        var change = parseFloat(row['涨跌幅']) || 0;
+        var changeClass = (change >= 0) ? 'up' : 'down';
+        var tagClass = (row._type === '股票') ? 'tag-stock' : 'tag-etf';
+        var code = row['代码'] || '';
+        var name = row['名称'] || '';
 
-                var td1 = document.createElement('td');
-                var span = document.createElement('span');
-                span.className = 'tag ' + tagClass;
-                span.textContent = row._type;
-                td1.appendChild(span);
-                tr.appendChild(td1);
+        // 创建行
+        var tr = document.createElement('tr');
+        tr.className = 'clickable';
+        // 使用 dataset 存储数据，避免 onclick 字符串拼接
+        tr.dataset.code = code;
+        tr.dataset.name = name;
+        tr.addEventListener('click', function() {
+            selectStock(this.dataset.code, this.dataset.name, 'stock');
+        });
 
-                var td2 = document.createElement('td');
-                td2.textContent = code;
-                tr.appendChild(td2);
+        // 类型列
+        var td1 = document.createElement('td');
+        var span = document.createElement('span');
+        span.className = 'tag ' + tagClass;
+        span.textContent = row._type;
+        td1.appendChild(span);
+        tr.appendChild(td1);
 
-                var td3 = document.createElement('td');
-                td3.textContent = name;
-                tr.appendChild(td3);
+        // 代码列
+        var td2 = document.createElement('td');
+        td2.textContent = code;
+        tr.appendChild(td2);
 
-                var td4 = document.createElement('td');
-                td4.textContent = row['最新价'] || '-';
-                tr.appendChild(td4);
+        // 名称列
+        var td3 = document.createElement('td');
+        td3.textContent = name;
+        tr.appendChild(td3);
 
-                var td5 = document.createElement('td');
-                td5.className = changeClass;
-                td5.textContent = (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
-                tr.appendChild(td5);
+        // 最新价列
+        var td4 = document.createElement('td');
+        td4.textContent = row['最新价'] || '-';
+        tr.appendChild(td4);
 
-                var td6 = document.createElement('td');
-                td6.textContent = formatNumber(row['成交量']);
-                tr.appendChild(td6);
+        // 涨跌幅列
+        var td5 = document.createElement('td');
+        td5.className = changeClass;
+        td5.textContent = (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
+        tr.appendChild(td5);
 
-                var td7 = document.createElement('td');
-                td7.textContent = formatNumber(row['成交额']);
-                tr.appendChild(td7);
+        // 成交量列
+        var td6 = document.createElement('td');
+        td6.textContent = formatNumber(row['成交量']);
+        tr.appendChild(td6);
 
-                rows.push(tr);
-            }
+        // 成交额列
+        var td7 = document.createElement('td');
+        td7.textContent = formatNumber(row['成交额']);
+        tr.appendChild(td7);
+
+        tbody.appendChild(tr);
+    }
+}
 
             tbody.innerHTML = '';
             for (var n = 0; n < rows.length; n++) {
