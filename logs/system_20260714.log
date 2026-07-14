@@ -806,3 +806,36 @@
 2026-07-14 06:33:58,583 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:58] "POST /api/ai/chat HTTP/1.1" 200 -
 2026-07-14 06:33:59,384 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:59] "POST /api/ai/chat HTTP/1.1" 200 -
 2026-07-14 06:34:01,335 - INFO - 127.0.0.1 - - [14/Jul/2026 06:34:01] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 14:19:35,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 14:19:35,619 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 14:19:36,533 - INFO - 127.0.0.1 - - [14/Jul/2026 14:19:36] "GET / HTTP/1.1" 200 -
+2026-07-14 14:19:36,707 - INFO - 127.0.0.1 - - [14/Jul/2026 14:19:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 14:19:51,574 - ERROR - 127.0.0.1 - - [14/Jul/2026 14:19:51] Request timed out: TimeoutError('timed out')
+2026-07-14 14:21:57,138 - INFO - 127.0.0.1 - - [14/Jul/2026 14:21:57] "GET / HTTP/1.1" 200 -
+2026-07-14 14:21:57,975 - INFO - 127.0.0.1 - - [14/Jul/2026 14:21:57] "GET / HTTP/1.1" 200 -
+2026-07-14 14:21:58,258 - INFO - 127.0.0.1 - - [14/Jul/2026 14:21:58] "GET / HTTP/1.1" 200 -
+2026-07-14 14:21:58,484 - INFO - 127.0.0.1 - - [14/Jul/2026 14:21:58] "GET / HTTP/1.1" 200 -
+2026-07-14 14:21:58,693 - INFO - 127.0.0.1 - - [14/Jul/2026 14:21:58] "GET / HTTP/1.1" 200 -
+2026-07-14 14:21:58,932 - INFO - 127.0.0.1 - - [14/Jul/2026 14:21:58] "GET / HTTP/1.1" 200 -
+2026-07-14 14:22:13,934 - ERROR - 127.0.0.1 - - [14/Jul/2026 14:22:13] Request timed out: TimeoutError('timed out')
+2026-07-14 14:22:16,386 - INFO - 127.0.0.1 - - [14/Jul/2026 14:22:16] "GET / HTTP/1.1" 200 -
+2026-07-14 14:22:17,087 - INFO - 127.0.0.1 - - [14/Jul/2026 14:22:17] "GET / HTTP/1.1" 200 -
+2026-07-14 14:22:17,539 - INFO - 127.0.0.1 - - [14/Jul/2026 14:22:17] "GET / HTTP/1.1" 200 -
+2026-07-14 14:33:17,879 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 14:33:17,880 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 14:33:19,941 - INFO - 127.0.0.1 - - [14/Jul/2026 14:33:19] "GET / HTTP/1.1" 200 -
+2026-07-14 14:33:34,986 - ERROR - 127.0.0.1 - - [14/Jul/2026 14:33:34] Request timed out: TimeoutError('timed out')
+2026-07-14 14:34:03,832 - INFO - 127.0.0.1 - - [14/Jul/2026 14:34:03] "GET / HTTP/1.1" 200 -
+2026-07-14 14:34:04,480 - INFO - 127.0.0.1 - - [14/Jul/2026 14:34:04] "GET / HTTP/1.1" 200 -
+2026-07-14 14:34:04,779 - INFO - 127.0.0.1 - - [14/Jul/2026 14:34:04] "GET / HTTP/1.1" 200 -
+2026-07-14 14:34:19,785 - ERROR - 127.0.0.1 - - [14/Jul/2026 14:34:19] Request timed out: TimeoutError('timed out')
+2026-07-14 14:36:11,653 - INFO - 127.0.0.1 - - [14/Jul/2026 14:36:11] "GET / HTTP/1.1" 200 -
+2026-07-14 14:36:13,052 - INFO - 127.0.0.1 - - [14/Jul/2026 14:36:13] "GET / HTTP/1.1" 200 -
+2026-07-14 14:36:14,558 - INFO - 127.0.0.1 - - [14/Jul/2026 14:36:14] "GET / HTTP/1.1" 200 -
+2026-07-14 14:36:29,569 - ERROR - 127.0.0.1 - - [14/Jul/2026 14:36:29] Request timed out: TimeoutError('timed out')
