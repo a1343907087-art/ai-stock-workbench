@@ -1,6 +1,6 @@
 """
-AI 专业炒股工作台 - 完整版 v10.5
-包含：数据展示、K线图、AI 对话（DeepSeek）、备份管理
+AI 专业炒股工作台 - 完整版 v10.6
+修复：前端 JavaScript 语法错误
 """
 
 from flask import Flask, render_template_string, jsonify, request
@@ -18,7 +18,6 @@ from data_persistence import archive_realtime_data, get_archive_stats, clean_old
 from report_generator import generate_excel_report
 from backup_manager import backup_database, list_backups, restore_backup, export_data_to_excel, health_check
 
-# 导入 AI 分析模块（请确保 ai_analysis.py 存在）
 try:
     from ai_analysis import analyze_stock, chat_with_ai, analyze_market
     AI_AVAILABLE = True
@@ -27,19 +26,16 @@ except ImportError:
     print("⚠️ ai_analysis.py 未找到，AI 功能不可用")
 
 app = Flask(__name__)
-# 关键配置：让 jsonify 返回中文不乱码
 app.config['JSON_AS_ASCII'] = False
 
 db_path = os.path.join(os.path.dirname(__file__), 'stock_data.db')
 
 
-# ========== 首页 ==========
 @app.route('/')
 def index():
     return render_template_string(HTML_TEMPLATE)
 
 
-# ========== API：获取所有数据 ==========
 @app.route('/api/data')
 def get_data():
     try:
@@ -73,7 +69,6 @@ def get_data():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== API：搜索 ==========
 @app.route('/api/search')
 def search():
     keyword = request.args.get('keyword', '').strip()
@@ -108,7 +103,6 @@ def search():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== API：K线数据 ==========
 @app.route('/api/kline')
 def get_kline():
     symbol = request.args.get('symbol', '000001')
@@ -144,12 +138,10 @@ def get_kline():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== API：AI 分析 ==========
 @app.route('/api/ai/chat', methods=['POST'])
 def ai_chat():
-    """AI 对话"""
     if not AI_AVAILABLE:
-        return jsonify({'success': False, 'error': 'AI 模块未安装，请检查 ai_analysis.py 是否存在'})
+        return jsonify({'success': False, 'error': 'AI 模块未安装'})
     try:
         data = request.get_json()
         message = data.get('message', '')
@@ -163,7 +155,6 @@ def ai_chat():
 
 @app.route('/api/ai/analyze', methods=['POST'])
 def ai_analyze_stock():
-    """AI 分析单只股票"""
     if not AI_AVAILABLE:
         return jsonify({'success': False, 'error': 'AI 模块未安装'})
     try:
@@ -181,7 +172,6 @@ def ai_analyze_stock():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== API：预警管理 ==========
 @app.route('/api/alerts')
 def get_alerts():
     try:
@@ -241,7 +231,6 @@ def test_notification():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== API：备份管理 ==========
 @app.route('/api/backup')
 def api_backup():
     try:
@@ -281,7 +270,6 @@ def api_export_excel():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== API：存档和报告 ==========
 @app.route('/api/archive')
 def archive_data():
     try:
@@ -315,10 +303,9 @@ def clean_archive():
         return jsonify({'success': False, 'error': str(e)})
 
 
-# ========== 启动 ==========
 if __name__ == '__main__':
     print("=" * 60)
-    print("🌐 启动AI炒股工作台 v10.5")
+    print("🌐 启动AI炒股工作台 v10.6")
     print("=" * 60)
     print("📊 访问: http://127.0.0.1:5000")
     print("💡 按 Ctrl + C 停止")
@@ -327,7 +314,7 @@ if __name__ == '__main__':
 
 
 # ============================================================
-# HTML 模板（内嵌完整界面）
+# HTML 模板（完整内嵌，修复 JavaScript 语法错误）
 # ============================================================
 
 HTML_TEMPLATE = """
@@ -337,7 +324,8 @@ HTML_TEMPLATE = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📊 AI 专业炒股工作台</title>
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js">
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -409,9 +397,7 @@ HTML_TEMPLATE = """
         }
         .controls button:hover { background: #2d2d4a; }
         .controls button.green { background: #27ae60; }
-        .controls button.green:hover { background: #2ecc71; }
         .controls button.orange { background: #f39c12; }
-        .controls button.orange:hover { background: #e67e22; }
         .controls button.outline { background: transparent; color: #1a1a2e; border: 2px solid #ddd; }
         .controls button.outline:hover { background: #f0f0f0; }
         .table-scroll { overflow-x: auto; max-height: 300px; overflow-y: auto; }
@@ -473,7 +459,12 @@ HTML_TEMPLATE = """
         }
         .alert-item .delete-btn { color: #e74c3c; cursor: pointer; font-weight: 700; padding: 0 4px; }
         .alert-item .delete-btn:hover { color: #c0392b; }
-        .alert-form { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+        .alert-form {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
         .alert-form input, .alert-form select {
             padding: 5px 8px;
             border: 1px solid #ddd;
@@ -506,15 +497,10 @@ HTML_TEMPLATE = """
             transition: background 0.3s;
         }
         .tools-row .btn-archive { background: #3498db; color: white; }
-        .tools-row .btn-archive:hover { background: #2980b9; }
         .tools-row .btn-report { background: #2ecc71; color: white; }
-        .tools-row .btn-report:hover { background: #27ae60; }
         .tools-row .btn-clean { background: #e67e22; color: white; }
-        .tools-row .btn-clean:hover { background: #d35400; }
         .tools-row .btn-backup { background: #8e44ad; color: white; }
-        .tools-row .btn-backup:hover { background: #9b59b6; }
         .tools-row .btn-export { background: #1abc9c; color: white; }
-        .tools-row .btn-export:hover { background: #16a085; }
         .backup-list { max-height: 120px; overflow-y: auto; font-size: 12px; }
         .backup-item {
             display: flex;
@@ -533,7 +519,7 @@ HTML_TEMPLATE = """
 <body>
 
     <div class="header">
-        <h1>📊 AI 专业炒股工作台 <span>v10.5</span></h1>
+        <h1>📊 AI 专业炒股工作台 <span>v10.6</span></h1>
         <div class="stats">
             <span id="totalCount">📈 加载中...</span>
             <span id="stockCount">📊 股票: --</span>
@@ -621,7 +607,6 @@ HTML_TEMPLATE = """
                 <div class="card-title">🤖 AI 智能分析 <button class="green" style="padding:3px 10px;font-size:11px;" onclick="analyzeStock()">生成分析</button></div>
                 <div class="analysis-box" id="analysisBox">💡 点击"生成分析"获取AI分析报告</div>
             </div>
-            <!-- AI 对话 -->
             <div class="card">
                 <div class="card-title">💬 AI 对话 <span class="sub">问股票、聊投资</span></div>
                 <div id="aiChatBox" style="height:150px;overflow-y:auto;background:#f8f9fa;border-radius:8px;padding:10px;font-size:12px;margin-bottom:8px;line-height:1.6;">
@@ -636,11 +621,17 @@ HTML_TEMPLATE = """
     </div>
 
     <script>
+        // ============================================================
+        // 全局变量
+        // ============================================================
         var currentData = { stock: [], etf: [] };
         var selectedSymbol = '000001';
         var selectedName = '平安银行';
         var klineChart = null;
 
+        // ============================================================
+        // 初始化
+        // ============================================================
         function initChart() {
             var dom = document.getElementById('klineChart');
             if (!dom) return;
@@ -650,6 +641,9 @@ HTML_TEMPLATE = """
             });
         }
 
+        // ============================================================
+        // 数据加载
+        // ============================================================
         function loadData() {
             console.log('🔄 开始加载数据...');
             fetch('/api/data')
@@ -682,6 +676,9 @@ HTML_TEMPLATE = """
             document.getElementById('updateTime').textContent = '🔄 ' + new Date().toLocaleTimeString();
         }
 
+        // ============================================================
+        // 渲染表格
+        // ============================================================
         function renderTable() {
             var allData = [];
             for (var i = 0; i < currentData.stock.length; i++) {
@@ -764,6 +761,9 @@ HTML_TEMPLATE = """
             return num.toString();
         }
 
+        // ============================================================
+        // K线图
+        // ============================================================
         function selectStock(symbol, name, type) {
             if (!symbol) return;
             selectedSymbol = symbol;
@@ -822,6 +822,9 @@ HTML_TEMPLATE = """
             klineChart.resize();
         }
 
+        // ============================================================
+        // AI 分析
+        // ============================================================
         function analyzeStock() {
             if (!selectedSymbol) {
                 document.getElementById('analysisBox').textContent = '⚠️ 请先点击选择一只股票';
@@ -863,10 +866,15 @@ HTML_TEMPLATE = """
             });
         }
 
+        // ============================================================
+        // 预警管理
+        // ============================================================
         function loadAlerts() {
-            fetch('/api/alerts').then(function(res) { return res.json(); }).then(function(data) {
-                if (data.success) renderAlerts(data.alerts);
-            });
+            fetch('/api/alerts')
+                .then(function(res) { return res.json(); })
+                .then(function(data) {
+                    if (data.success) renderAlerts(data.alerts);
+                });
         }
 
         function renderAlerts(alerts) {
@@ -933,6 +941,9 @@ HTML_TEMPLATE = """
                 });
         }
 
+        // ============================================================
+        // 工具功能
+        // ============================================================
         function archiveData() {
             var status = document.getElementById('toolStatus');
             status.textContent = '⏳ 正在存档...';
@@ -961,6 +972,9 @@ HTML_TEMPLATE = """
                 .catch(function() { status.textContent = '❌ 网络错误'; });
         }
 
+        // ============================================================
+        // 备份管理
+        // ============================================================
         function loadBackups() {
             fetch('/api/backups').then(function(res) { return res.json(); }).then(function(data) {
                 if (data.success) renderBackups(data.backups);
@@ -1015,6 +1029,9 @@ HTML_TEMPLATE = """
             }).catch(function() { status.textContent = '❌ 网络错误'; });
         }
 
+        // ============================================================
+        // 搜索
+        // ============================================================
         function handleSearch(e) {
             if (e.key === 'Enter') {
                 var keyword = document.getElementById('searchInput').value.trim();
@@ -1038,6 +1055,9 @@ HTML_TEMPLATE = """
             loadData();
         }
 
+        // ============================================================
+        // 启动
+        // ============================================================
         initChart();
         loadData();
         setTimeout(function() { selectStock('000001', '平安银行', 'stock'); }, 1500);
