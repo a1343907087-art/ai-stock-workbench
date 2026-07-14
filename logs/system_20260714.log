@@ -629,3 +629,180 @@
 2026-07-14 04:27:19,115 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:19] "GET / HTTP/1.1" 200 -
 2026-07-14 04:27:19,372 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:19] "GET / HTTP/1.1" 200 -
 2026-07-14 04:27:19,635 - INFO - 127.0.0.1 - - [14/Jul/2026 04:27:19] "GET / HTTP/1.1" 200 -
+2026-07-14 05:54:55,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 05:54:55,979 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 05:54:55,982 - INFO -  * Restarting with stat
+2026-07-14 05:54:57,171 - WARNING -  * Debugger is active!
+2026-07-14 05:54:57,174 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 05:55:18,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 05:55:18,716 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 05:55:18,719 - INFO -  * Restarting with stat
+2026-07-14 05:55:19,933 - WARNING -  * Debugger is active!
+2026-07-14 05:55:19,938 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 05:55:28,205 - INFO - 127.0.0.1 - - [14/Jul/2026 05:55:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-14 05:55:32,278 - INFO - 127.0.0.1 - - [14/Jul/2026 05:55:32] "GET / HTTP/1.1" 200 -
+2026-07-14 05:55:33,173 - INFO - 127.0.0.1 - - [14/Jul/2026 05:55:33] "GET / HTTP/1.1" 200 -
+2026-07-14 05:55:33,664 - INFO - 127.0.0.1 - - [14/Jul/2026 05:55:33] "GET / HTTP/1.1" 200 -
+2026-07-14 06:01:58,098 - INFO - 127.0.0.1 - - [14/Jul/2026 06:01:58] "[33mPOST /api/ai/chat HTTP/1.1[0m" 404 -
+2026-07-14 06:02:37,806 - INFO - 127.0.0.1 - - [14/Jul/2026 06:02:37] "[33mPOST /api/ai/chat HTTP/1.1[0m" 404 -
+2026-07-14 06:02:40,154 - INFO - 127.0.0.1 - - [14/Jul/2026 06:02:40] "[33mPOST /api/ai/chat HTTP/1.1[0m" 404 -
+2026-07-14 06:02:58,584 - INFO - 127.0.0.1 - - [14/Jul/2026 06:02:58] "[33mPOST /api/ai/chat HTTP/1.1[0m" 404 -
+2026-07-14 06:02:59,834 - INFO - 127.0.0.1 - - [14/Jul/2026 06:02:59] "[33mPOST /api/ai/chat HTTP/1.1[0m" 404 -
+2026-07-14 06:03:05,812 - INFO - 127.0.0.1 - - [14/Jul/2026 06:03:05] "[33mPOST /api/ai/chat HTTP/1.1[0m" 404 -
+2026-07-14 06:03:33,835 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:03:33,835 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:03:33,836 - INFO -  * Restarting with stat
+2026-07-14 06:03:35,105 - WARNING -  * Debugger is active!
+2026-07-14 06:03:35,110 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:03:40,093 - INFO - 127.0.0.1 - - [14/Jul/2026 06:03:40] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:03:41,128 - INFO - 127.0.0.1 - - [14/Jul/2026 06:03:41] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:03:44,833 - INFO - 127.0.0.1 - - [14/Jul/2026 06:03:44] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:03:46,935 - INFO - 127.0.0.1 - - [14/Jul/2026 06:03:46] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:04:04,333 - INFO - 127.0.0.1 - - [14/Jul/2026 06:04:04] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:04:06,534 - INFO - 127.0.0.1 - - [14/Jul/2026 06:04:06] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:04:07,388 - INFO - 127.0.0.1 - - [14/Jul/2026 06:04:07] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:04:39,368 - INFO - 127.0.0.1 - - [14/Jul/2026 06:04:39] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:04:40,925 - INFO - 127.0.0.1 - - [14/Jul/2026 06:04:40] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:04:46,259 - INFO - 127.0.0.1 - - [14/Jul/2026 06:04:46] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:05:01,808 - INFO - 127.0.0.1 - - [14/Jul/2026 06:05:01] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:05:05,182 - INFO - 127.0.0.1 - - [14/Jul/2026 06:05:05] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:05:37,727 - INFO - 127.0.0.1 - - [14/Jul/2026 06:05:37] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:05:38,797 - INFO - 127.0.0.1 - - [14/Jul/2026 06:05:38] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:05:55,603 - INFO - 127.0.0.1 - - [14/Jul/2026 06:05:55] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:05:56,990 - INFO - 127.0.0.1 - - [14/Jul/2026 06:05:56] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:07:26,934 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:07:26,935 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:07:26,936 - INFO -  * Restarting with stat
+2026-07-14 06:07:29,380 - WARNING -  * Debugger is active!
+2026-07-14 06:07:29,384 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:07:36,380 - INFO - 127.0.0.1 - - [14/Jul/2026 06:07:36] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:07:40,454 - INFO - 127.0.0.1 - - [14/Jul/2026 06:07:40] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:09:00,082 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:09:00,083 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:09:00,084 - INFO -  * Restarting with stat
+2026-07-14 06:09:02,347 - WARNING -  * Debugger is active!
+2026-07-14 06:09:02,350 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:09:06,753 - INFO - 127.0.0.1 - - [14/Jul/2026 06:09:06] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:09:07,961 - INFO - 127.0.0.1 - - [14/Jul/2026 06:09:07] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:09:09,595 - INFO - 127.0.0.1 - - [14/Jul/2026 06:09:09] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:11:11,068 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\ai_analysis.py', reloading
+2026-07-14 06:11:11,385 - INFO -  * Restarting with stat
+2026-07-14 06:11:13,733 - WARNING -  * Debugger is active!
+2026-07-14 06:11:13,736 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:11:29,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:11:29,372 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:11:29,373 - INFO -  * Restarting with stat
+2026-07-14 06:11:31,710 - WARNING -  * Debugger is active!
+2026-07-14 06:11:31,713 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:11:37,653 - INFO - 127.0.0.1 - - [14/Jul/2026 06:11:37] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:11:38,953 - INFO - 127.0.0.1 - - [14/Jul/2026 06:11:38] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:11:43,642 - INFO - 127.0.0.1 - - [14/Jul/2026 06:11:43] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:12:28,640 - INFO - 127.0.0.1 - - [14/Jul/2026 06:12:28] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:12:44,021 - INFO - 127.0.0.1 - - [14/Jul/2026 06:12:44] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:14:07,566 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\ai_analysis.py', reloading
+2026-07-14 06:14:07,898 - INFO -  * Restarting with stat
+2026-07-14 06:14:10,186 - WARNING -  * Debugger is active!
+2026-07-14 06:14:10,189 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:15:00,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:15:00,551 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:15:00,552 - INFO -  * Restarting with stat
+2026-07-14 06:15:02,905 - WARNING -  * Debugger is active!
+2026-07-14 06:15:02,908 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:15:13,687 - INFO - 127.0.0.1 - - [14/Jul/2026 06:15:13] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:15:14,807 - INFO - 127.0.0.1 - - [14/Jul/2026 06:15:14] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:15:24,520 - INFO - 127.0.0.1 - - [14/Jul/2026 06:15:24] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:16:24,337 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\ai_analysis.py', reloading
+2026-07-14 06:16:24,687 - INFO -  * Restarting with stat
+2026-07-14 06:16:26,002 - WARNING -  * Debugger is active!
+2026-07-14 06:16:26,006 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:16:34,853 - INFO - 127.0.0.1 - - [14/Jul/2026 06:16:34] "GET / HTTP/1.1" 200 -
+2026-07-14 06:16:35,486 - INFO - 127.0.0.1 - - [14/Jul/2026 06:16:35] "GET / HTTP/1.1" 200 -
+2026-07-14 06:17:33,302 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 06:17:33,501 - INFO -  * Restarting with stat
+2026-07-14 06:17:34,852 - WARNING -  * Debugger is active!
+2026-07-14 06:17:34,858 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:17:35,879 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 06:17:36,075 - INFO -  * Restarting with stat
+2026-07-14 06:17:37,382 - WARNING -  * Debugger is active!
+2026-07-14 06:17:37,386 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:18:15,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:18:15,025 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:18:15,026 - INFO -  * Restarting with stat
+2026-07-14 06:18:16,195 - WARNING -  * Debugger is active!
+2026-07-14 06:18:16,199 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:18:27,840 - INFO - 127.0.0.1 - - [14/Jul/2026 06:18:27] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:18:30,232 - INFO - 127.0.0.1 - - [14/Jul/2026 06:18:30] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:18:31,199 - INFO - 127.0.0.1 - - [14/Jul/2026 06:18:31] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:20:39,820 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 06:20:39,995 - INFO -  * Restarting with stat
+2026-07-14 06:20:41,315 - WARNING -  * Debugger is active!
+2026-07-14 06:20:41,320 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:20:45,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:20:45,011 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:20:45,012 - INFO -  * Restarting with stat
+2026-07-14 06:20:46,250 - WARNING -  * Debugger is active!
+2026-07-14 06:20:46,253 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:20:54,559 - INFO - 127.0.0.1 - - [14/Jul/2026 06:20:54] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:20:55,672 - INFO - 127.0.0.1 - - [14/Jul/2026 06:20:55] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:20:56,651 - INFO - 127.0.0.1 - - [14/Jul/2026 06:20:56] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:20:57,578 - INFO - 127.0.0.1 - - [14/Jul/2026 06:20:57] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:20:58,408 - INFO - 127.0.0.1 - - [14/Jul/2026 06:20:58] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:21:41,657 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\ai_trading_workbench\\app.py', reloading
+2026-07-14 06:21:41,857 - INFO -  * Restarting with stat
+2026-07-14 06:21:42,490 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:21:42,490 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:21:42,490 - INFO -  * Restarting with stat
+2026-07-14 06:21:43,378 - WARNING -  * Debugger is active!
+2026-07-14 06:21:43,384 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:21:43,890 - WARNING -  * Debugger is active!
+2026-07-14 06:21:43,894 - INFO -  * Debugger PIN: 190-187-701
+2026-07-14 06:21:49,565 - INFO - 127.0.0.1 - - [14/Jul/2026 06:21:49] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:21:50,807 - INFO - 127.0.0.1 - - [14/Jul/2026 06:21:50] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:21:51,829 - INFO - 127.0.0.1 - - [14/Jul/2026 06:21:51] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:21:59,883 - INFO - 127.0.0.1 - - [14/Jul/2026 06:21:59] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:22:02,794 - INFO - 127.0.0.1 - - [14/Jul/2026 06:22:02] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:22:07,432 - INFO - 127.0.0.1 - - [14/Jul/2026 06:22:07] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:22:10,347 - INFO - 127.0.0.1 - - [14/Jul/2026 06:22:10] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:22:13,893 - INFO - 127.0.0.1 - - [14/Jul/2026 06:22:13] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:23:00,224 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.186:5000
+2026-07-14 06:23:00,224 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-14 06:23:02,210 - INFO - 127.0.0.1 - - [14/Jul/2026 06:23:02] "GET / HTTP/1.1" 200 -
+2026-07-14 06:33:55,842 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:55] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:33:56,919 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:56] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:33:57,740 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:57] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:33:58,583 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:58] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:33:59,384 - INFO - 127.0.0.1 - - [14/Jul/2026 06:33:59] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-07-14 06:34:01,335 - INFO - 127.0.0.1 - - [14/Jul/2026 06:34:01] "POST /api/ai/chat HTTP/1.1" 200 -

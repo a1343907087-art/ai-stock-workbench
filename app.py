@@ -1,8 +1,15 @@
 """
+# -*- coding: utf-8 -*-
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
+from ai_analysis import analyze_stock, chat_with_ai, analyze_market
 AI 专业炒股工作台 - 完整版
 包含：K线图、技术指标、预警系统、数据存档、报告生成、备份管理
 """
-
+from ai_analysis import analyze_stock, chat_with_ai
 from flask import Flask, render_template_string, jsonify, request, send_file
 import sqlite3
 import pandas as pd
@@ -165,6 +172,8 @@ def analyze_stock():
         latest = df.iloc[-1]
         
         report = f"""
+
+
 📊 {name or symbol} AI 技术分析报告
 ================================
 📈 最新价格: {latest.get('close', 0):.2f}
@@ -1158,6 +1167,71 @@ HTML_TEMPLATE = '''
 </body>
 </html>
 '''
+# ========== AI 分析 API ==========
+
+@app.route('/api/ai/analyze', methods=['POST'])
+def ai_analyze_stock():
+    """AI 分析单只股票 - 强制 UTF-8"""
+    try:
+        raw_data = request.get_data(as_text=True)
+        if not raw_data:
+            return jsonify({'success': False, 'error': '请提供股票信息'})
+        
+        import json
+        try:
+            data = json.loads(raw_data)
+        except:
+            return jsonify({'success': False, 'error': 'JSON 格式错误'})
+        
+        symbol = data.get('symbol', '')
+        name = data.get('name', symbol)
+        price = data.get('price', 0)
+        change = data.get('change', 0)
+        volume = data.get('volume', 0)
+        
+        if not symbol:
+            return jsonify({'success': False, 'error': '请提供股票代码'})
+        
+        result = analyze_stock(symbol, name, price, change, volume)
+        
+        if isinstance(result, str):
+            result = result.encode('utf-8', errors='ignore').decode('utf-8')
+        
+        return jsonify({'success': True, 'result': result})
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)})
+
+
+@app.route('/api/ai/chat', methods=['POST'])
+def ai_chat():
+    """AI 对话 - 强制 UTF-8"""
+    try:
+        # 获取原始数据
+        raw_data = request.get_data(as_text=True)
+        if not raw_data:
+            return jsonify({'success': False, 'error': '请提供消息'})
+        
+        # 手动解析 JSON
+        import json
+        try:
+            data = json.loads(raw_data)
+        except:
+            return jsonify({'success': False, 'error': 'JSON 格式错误'})
+        
+        message = data.get('message', '')
+        if not message:
+            return jsonify({'success': False, 'error': '请输入问题'})
+        
+        # 调用 AI
+        result = chat_with_ai(message)
+        
+        # 强制 UTF-8 编码
+        if isinstance(result, str):
+            result = result.encode('utf-8', errors='ignore').decode('utf-8')
+        
+        return jsonify({'success': True, 'result': result})
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)})
 
 if __name__ == '__main__':
     print("=" * 60)
