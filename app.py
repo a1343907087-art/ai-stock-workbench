@@ -981,19 +981,48 @@ HTML_TEMPLATE = """
             });
         }
 
-        function renderBackups(backups) {
-            var container = document.getElementById('backupList');
-            if (!backups || backups.length === 0) {
-                container.innerHTML = '<div class="loading-text">📭 暂无备份</div>';
-                return;
-            }
-            var html = '';
-            for (var i = 0; i < backups.length; i++) {
-                var b = backups[i];
-                html += '<div class="backup-item"><span>📦 ' + b.name + '</span><span>' + b.size + ' | ' + b.time + '</span><span class="restore-btn" onclick="restoreBackup(\'' + b.name + '\')">↩️ 恢复</span></div>';
-            }
-            container.innerHTML = html;
-        }
+       function renderBackups(backups) {
+    var container = document.getElementById('backupList');
+    if (!backups || backups.length === 0) {
+        container.innerHTML = '<div class="loading-text">📭 暂无备份</div>';
+        return;
+    }
+
+    // 清空容器
+    container.innerHTML = '';
+
+    for (var i = 0; i < backups.length; i++) {
+        var b = backups[i];
+
+        // 创建 div 容器
+        var div = document.createElement('div');
+        div.className = 'backup-item';
+
+        // 文件名
+        var nameSpan = document.createElement('span');
+        nameSpan.textContent = '📦 ' + b.name;
+        div.appendChild(nameSpan);
+
+        // 大小和时间
+        var infoSpan = document.createElement('span');
+        infoSpan.textContent = b.size + ' | ' + b.time;
+        div.appendChild(infoSpan);
+
+        // 恢复按钮
+        var restoreSpan = document.createElement('span');
+        restoreSpan.className = 'restore-btn';
+        restoreSpan.textContent = '↩️ 恢复';
+        // 使用闭包保存 b.name
+        (function(name) {
+            restoreSpan.addEventListener('click', function() {
+                restoreBackup(name);
+            });
+        })(b.name);
+
+        div.appendChild(restoreSpan);
+        container.appendChild(div);
+    }
+}
 
         function refreshBackupList() {
             document.getElementById('backupList').innerHTML = '<div class="loading-text">⏳ 刷新中...</div>';
